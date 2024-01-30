@@ -1,13 +1,22 @@
-function ContactLists({ contacts }) {
-  console.log(contacts);
+import ContactItem from "./ContactItem";
+
+function ContactLists({ contacts, deleteHandler }) {
   return (
     <div>
       <h3>Contact Lists</h3>
-      <ul>
-        {contacts.map((contact) => (
-          <li key={contact.id}>{contact.name}</li>
-        ))}
-      </ul>
+      {contacts.length ? (
+        <ul>
+          {contacts.map((contact) => (
+            <ContactItem
+              key={contact.id}
+              data={contact}
+              deleteHandler={deleteHandler}
+            />
+          ))}
+        </ul>
+      ) : (
+        <p>No contact yet!</p>
+      )}
     </div>
   );
 }
