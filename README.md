@@ -1,3 +1,5 @@
+![screencapture-localhost-3000-2024-02-06-11_21_02](https://github.com/saramazaheri/contact-app/assets/61461140/72beef17-d39d-44ac-8c6c-79dcef1efdac)
+
 # React Contact App
 
 The React Contact App is a simple yet powerful contact management application built using React.js and Vite library. It offers an intuitive interface for users to manage their contacts efficiently. Whether you're a professional needing to keep track of clients or simply organizing your personal contacts, this app provides a seamless experience.
@@ -15,6 +17,7 @@ The React Contact App is a simple yet powerful contact management application bu
 ## Getting Started:
 
 To get started with the React Contact App, follow these steps:
+
 
 1. Clone the repository: `git clone [repository-url]`
 2. Navigate to the project directory: `cd react-contact-app`
