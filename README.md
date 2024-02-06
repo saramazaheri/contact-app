@@ -4,6 +4,16 @@
 
 The React Contact App is a simple yet powerful contact management application built using React.js and Vite library. It offers an intuitive interface for users to manage their contacts efficiently. Whether you're a professional needing to keep track of clients or simply organizing your personal contacts, this app provides a seamless experience.
 
+## Features:
+
+- **Add Contacts**: Users can easily add new contacts to their list by providing necessary information such as name, phone number, and email address.
+- **Delete Contacts**: Users can delete contacts they no longer need, helping them keep their contact list organized.
+- **Dynamic Codes**: The app utilizes dynamic JavaScript code to handle various functionalities such as adding and deleting contacts, ensuring a smooth and interactive user experience.
+- **List Rendering**: Contact information is dynamically rendered using list rendering techniques, allowing users to see their contacts in an organized and visually appealing manner.
+- **Map Functions**: The app leverages JavaScript's map functions to efficiently handle arrays of contact data, enabling seamless manipulation and rendering of contact lists.
+- **Conditional Rendering**: Different components and UI elements are conditionally rendered based on user actions and the current state of the application, providing a responsive and intuitive user interface.
+- **Responsive Design**: The app is designed to be responsive, ensuring a seamless experience across various devices and screen sizes.
+
 ## Technologies Used:
 
 - **React.js**: A JavaScript library for building user interfaces.
@@ -17,7 +27,6 @@ The React Contact App is a simple yet powerful contact management application bu
 ## Getting Started:
 
 To get started with the React Contact App, follow these steps:
-
 
 1. Clone the repository: `git clone [repository-url]`
 2. Navigate to the project directory: `cd react-contact-app`
