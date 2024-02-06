@@ -2,7 +2,7 @@
   "name": "contact-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://saramazaheri.github.io/contact-app.github.io/",
+  "homepage": "https://saramazaheri.github.io/contact-app/",
   "type": "module",
   "scripts": {
     "dev": "vite",
